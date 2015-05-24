@@ -1,0 +1,76 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+.first-panel {
+	height: 100vh;
+}
+.parallax-container {
+	height: 400px;
+}
+.noneRep4at {
+	background-repeat: no-repeat;
+}
+.centerContainer {
+	display: flex;
+	justify-content: center;
+}
+.bannerTitle {
+	color: white;
+	font-size: 5em;
+	text-align: center;
+	margin: 150px 0px 30px 0px;
+}
+.subBanner {
+	font-size: 1.2em;
+	text-align: center;
+	color: white;
+}
+.horizontalContainer {
+	display: flex;
+	flex-direction: row;
+	padding: 40px 100px;
+}
+.verticalContainer {
+	display: flex;
+	flex-direction: column;
+	padding: 40px 100px;
+}
+.horizontalInnerContainer {
+	display: flex;
+	flex-direction: row;
+}
+.horizontalRight {
+	display: flex;
+	flex-direction: column;
+	padding-left: 40px;
+}
+.banner {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%
+}
+.avatar {
+	background-image: url(/res/header.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-position: 0px 10px;
+    min-width: 350px;
+    min-height: 350px;
+}
+.skillLogo {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-position: center;
+    min-width: 250px;
+    min-height: 250px;
+    width: 250px;
+    height: 250px;
+}
+.content {
+	color: #9e9e9e;
+}
